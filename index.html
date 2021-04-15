@@ -6,19 +6,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-      body {
+      body{
         background-image: url("scott-graham-5fNmWej4tAA-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
       }
+      
       </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
   </head>
   <body>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
       
     <!-- Optional JavaScript -->
@@ -27,9 +32,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <div>
+      
     <nav class="navbar navbar-light bg-dark bg-dark">
         <div class="container-fluid color-white">
-          <a class="navbar-brand text-white font-weight-bold" href="#">
+          <a class="navbar-brand text-white font-weight-bold text-center" href="#">
             <img src="mypic.jpg" alt="" width="35" height="35" class=" d-inline-block align-text-top rounded-circle mr-3">
              MY PORTFOLIO
              <button class="navbar-toggler ml-4 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,13 +44,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                <a class="nav-link active text-info fas fa-house-user  font-weight-bold text-uppercase" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-info fas fa-house-user  font-weight-bold text-uppercase" aria-current="page" href="#"><ion-icon class="pr-2" name="earth-outline"></ion-icon>Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-info font-weight-bold text-uppercase" href="#">Certifications</a>
+                    <a class="nav-link text-info font-weight-bold text-uppercase" href="#"><ion-icon class="pr-2" name="newspaper-outline"></ion-icon>Certifications</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-info font-weight-bold text-uppercase"  href="#">Projects</a>
+                    <a class="nav-link text-info font-weight-bold text-uppercase"  href="#"><ion-icon class="pr-2" name="game-controller-outline"></ion-icon>Projects</a>
                   </li>
                 </ul>
             </div>
@@ -54,13 +60,14 @@
       </nav>
 </div>
 <div> 
-<div class="px-5 py-5">
-  <img src="mypic2.jpg" width="290" height="290" class="pl-10 rounded-circle">
+  <div >
+    <div class="ml-5 mt-5"><img src="mypic2.jpg" width="290" height="290" class="rounded-circle"></div>
+    <div class="text-center"><p class="text-dark text-justify"><h3><kbd>I'm Vighnesh and I'm a Developer.At present I'm looking for an oppurtunity to build my career.</kbd></h3></p></div>
+  </div>
+
 </div>
 <div>
-
-</div>
-
+  <button class="btn btn-outline-dark d-flex p-2 font-weight-bold" type="button">DOWNLOAD CV</button>
 </div>
 </body>
 </html>
