@@ -23,6 +23,7 @@ body{
         border-left-style: groove;
         border-bottom-style: hidden;
         border-left:2px solid black;
+        height: 100%;
 }
 .cont-header{
     display: flex;
@@ -80,8 +81,7 @@ display: inline-block !important;
 img{
     background-color: rgba(221, 22, 22, 0.767);
     opacity: 10;
-
-
+    height: 100%;
 }
 .main{
     width:100%;
