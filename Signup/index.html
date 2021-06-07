@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="%PUBLIC_URL%/unnamed.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".login-form").hide();
+            $(".login").css('background', 'none');
+            $(".signup").css('background', 'rgba(221, 22, 22, 0.767)');
+
+            $(".login").click(function () {
+                $(".signup-form").hide();
+                $(".login-form").show();
+                $(".signup").css('background', 'none');
+                $(".login").css('background', 'rgba(221, 22, 22, 0.767)');
+            });
+            $(".signup").click(function () {
+                $(".login-form").hide();
+                $(".signup-form").show();
+                $(".login").css('background', 'none');
+                $(".signup").css('background', 'rgba(221, 22, 22, 0.767)');
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <div class="navbar">
+        <div class="text">
+            <h1><span>FSS</span></h1>
+        </div>
+        <div class="logo">
+            <img class="logo" src="./assets/logo.png">
+        </div>
+
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="container">
+            <div class="cont-header">
+                <div class="signup">
+                    signup
+                </div>
+                <div class="login">
+                    login
+                </div>
+            </div>
+            <div class="cont-body">
+                <div class="signup-form">
+                    <input class="input" type="text" required="" placeholder="&#61447; First Name">
+                    <br>
+                    <input class="input" type="text" required="" placeholder="&#61447; Last Name"><br>
+                    <input class="input" type="Email" required="" placeholder="&#xf0e0; Email"><br>
+                    <input class="input" type="Phone" required="" placeholder="&#xf095; Phone"><br>
+
+                    <input type="submit" class="botn" value="Register">
+
+                </div>
+                <div class="login-form">
+                    <input class="input" type="text" required placeholder="&#61447; Username or Email">
+                    <br>
+                    <input class="input" type="text" required placeholder="&#61475; Password"><br>
+                    <div class="forgot">
+                        <a href="#" class="linked">Forgot Password?</a>
+                    </div>
+
+                    <input class="botn" type="submit" value="Login">
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="container1">
+            <img src="./assets/unnamed1.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
